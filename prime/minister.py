@@ -1,5 +1,4 @@
-import math, sys, os
-from threading import Thread
+import math, sys
 
 file_name = sys.argv[1]
 
