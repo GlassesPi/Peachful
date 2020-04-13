@@ -1,4 +1,4 @@
-FROM pypy:3
+FROM pypy:3-5.8
 WORKDIR /app
 COPY minister.py .
 
