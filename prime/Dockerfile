@@ -1,5 +1,5 @@
-FROM pypy:3-5.8
+FROM pypy:3
 WORKDIR /app
 COPY minister.py .
 
-ENTRYPOINT ["python", "minister.py"]
+ENTRYPOINT ["pypy3", "minister.py"]
